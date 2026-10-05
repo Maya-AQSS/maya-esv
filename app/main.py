@@ -33,7 +33,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="maya-esv. Servicio de Validación de Firmas PDF",
+    title="Maya | Esv. Servicio de Validación de Firmas PDF",
     version="1.1.0",
     description="API para validar firmas electrónicas en documentos PDF "
     "(integridad, cadena de confianza, caducidad y revocación).",
