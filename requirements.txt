@@ -1,0 +1,9 @@
+# --- Validación de firmas: API sensible entre versiones, se fijan exactas ---
+pyhanko==0.21.0
+pyhanko-certvalidator==0.26.3
+aiohttp>=3.9,<4
+
+# --- Servicio web ---
+fastapi>=0.115.6,<0.116
+uvicorn[standard]>=0.32,<0.35
+python-multipart>=0.0.18
